@@ -22,6 +22,7 @@ public class OlaServlet extends HttpServlet {
 		// Escreve a resposta na tela
 		response.getWriter().append("<h1>Funcionou!</h1>");
 		response.getWriter().append("<p>O Tomcat 10 respondeu usando Jakarta EE.</p>");
+		response.getWriter().append("<h1>Versão Automática 2.0!</h1>");
 		response.getWriter().append("<a href='index.jsp'>Voltar</a>");
 	}
 }
